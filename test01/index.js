@@ -76,7 +76,6 @@ function runGame() {
   }
 
   setup();
-  requestAnimationFrame(loop);
 
   return {app: app, player: player}
 }
